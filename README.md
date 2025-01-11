@@ -36,10 +36,10 @@ Before running the application, ensure you have the following installed on your 
 
 
 ### DB Config
--Please change these config in application.properties file according to your db config
--#spring.datasource.url=jdbc:mysql://localhost:3306/test
--#spring.datasource.username=root
--#spring.datasource.password=
+-Please change these config in application.properties file according to your db config.
+## spring.datasource.url=jdbc:mysql://localhost:3306/test
+## spring.datasource.username=root
+## spring.datasource.password=
 
 ### SQL Query
 
