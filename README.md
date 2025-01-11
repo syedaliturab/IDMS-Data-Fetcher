@@ -34,8 +34,12 @@ Before running the application, ensure you have the following installed on your 
 - **Git**
 - **Postman**
 
-### Clone the Repository
 
+### DB Config
+-Please change these config in application.properties file according to your db config
+#spring.datasource.url=jdbc:mysql://localhost:3306/test
+#spring.datasource.username=root
+#spring.datasource.password=
 
 ### SQL Query
 
@@ -76,6 +80,7 @@ To interact with the API endpoints defined in this project, you can use the prov
 
 Once imported, you can start testing the API using the predefined requests in the collection
 
+### Clone the repository
 ```bash
 git clone https://github.com/yourusername/idms-data-fetcher.git
 cd idms-data-fetcher
