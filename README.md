@@ -2,7 +2,7 @@
 
 This project is designed to interact with the IDMS  API to authenticate users, fetch account details, and store them for further processing. The application integrates with Spring Boot, Hibernate, and MySQL to ensure seamless data management and API interactions.
 
-## Table of Contents
+
 
 
 ## Project Overview
@@ -37,9 +37,9 @@ Before running the application, ensure you have the following installed on your 
 
 ### DB Config
 -Please change these config in application.properties file according to your db config.
-## spring.datasource.url=jdbc:mysql://localhost:3306/test
-## spring.datasource.username=root
-## spring.datasource.password=
+### spring.datasource.url=jdbc:mysql://localhost:3306/test
+### spring.datasource.username=root
+### spring.datasource.password=
 
 ### SQL Query
 
