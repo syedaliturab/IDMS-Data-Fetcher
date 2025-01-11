@@ -54,7 +54,7 @@ CREATE TABLE user
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )
 
-INSERT INTO `user`( `name`, `password`) VALUES ('adm','3hbW0QMkJQvSjpFHteqz3A==');
+INSERT INTO `user`( `name`, `password`) VALUES ('admin','3hbW0QMkJQvSjpFHteqz3A==');
 
 
 ###### Here password is different from provided (DriveSoft@@!) as it is in encrypted form
