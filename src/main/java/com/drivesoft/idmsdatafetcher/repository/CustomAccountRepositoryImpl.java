@@ -5,8 +5,6 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 public class CustomAccountRepositoryImpl implements CustomAccountRepository {
     @PersistenceContext

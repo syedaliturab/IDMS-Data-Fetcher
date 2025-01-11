@@ -36,11 +36,6 @@ Before running the application, ensure you have the following installed on your 
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/idms-data-fetcher.git
-cd idms-data-fetcher
-
-
 
 ### SQL Query
 
@@ -60,7 +55,27 @@ INSERT INTO `user`( `name`, `password`) VALUES ('adm','3hbW0QMkJQvSjpFHteqz3A=='
 
 ###### Here password is different from provided (DriveSoft@@!) as it is in encrypted form
 
+
 ### FOR DOCUMENTATION REFER SWAGGER
 
 -http://localhost:8081/swagger-ui/index.html#/
 
+
+## Postman Collection
+
+To interact with the API endpoints defined in this project, you can use the provided Postman collection.
+
+### Importing the Postman Collection
+
+1. Download the Postman collection file from the repository:
+
+   [Download Postman Collection](./postman/IDMS Data Fetcher.postman_collection.json)
+
+2. Open Postman, click on the **Import** button (top left).
+3. Select the downloaded `.json` file or import it directly from the URL if hosted online.
+
+Once imported, you can start testing the API using the predefined requests in the collection
+
+```bash
+git clone https://github.com/yourusername/idms-data-fetcher.git
+cd idms-data-fetcher
